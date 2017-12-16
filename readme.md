@@ -17,3 +17,7 @@ pbcopy < ~/.ssh/id_rsa.pub  copy key to clip board
 https://github.com/settings/keys  - Add pasted key
 
 ssh -T git@github.com  - Check connecting...
+
+
+git push heroku master -- connct to heroku
+heroku open
