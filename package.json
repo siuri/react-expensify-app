@@ -5,6 +5,8 @@
   "license": "MIT",
   "scripts": {
     "server": "live-server public/",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env prdouction",
     "build": "webpack",
     "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
     "dev-server": "webpack-dev-server",
