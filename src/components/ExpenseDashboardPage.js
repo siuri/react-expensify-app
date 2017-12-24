@@ -1,6 +1,6 @@
 import React from 'react';
 import ExpenseList from './ExpenseList';
-import ExpensesListItem from './ExpensesListItem';
+import ExpenseListItem from './ExpenseListItem';
 import ExpenseListFilters from './ExpenseListFilters';
 import ExpensesSummary from './ExpensesSummary';
 
