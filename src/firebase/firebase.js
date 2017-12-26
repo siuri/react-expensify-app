@@ -11,8 +11,15 @@ const config = {
 
 firebase.initializeApp(config);
 
+// var providerInfo = new firebase.auth.GoogleAuthProvider();
+// providerInfo.addScope('profile');
+// providerInfo.addScope('email');
+// providerInfo.addScope('https://www.googleapis.com/auth/plus.me');
+// const googleAuthProvider = providerInfo;
+
 const database = firebase.database();
 const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
+
 
 export { firebase, googleAuthProvider, database as default };
 
