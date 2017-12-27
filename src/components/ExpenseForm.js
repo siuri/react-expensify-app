@@ -54,7 +54,7 @@ export default class ExpenseForm extends React.Component {
     };
     render () {
         return (
-            <form class="form" onSubmit={this.onSubmit}>
+            <form className="form" onSubmit={this.onSubmit}>
             {this.state.error && <p className="form__error">{this.state.error}</p>}
                 <input
                     className="text-input"
@@ -72,7 +72,6 @@ export default class ExpenseForm extends React.Component {
                     onChange={this.onAmountChage}
                 />
                 <SingleDatePicker
-                    className="text-input"
                     date={this.state.createdAt} 
                     onDateChange={this.onDateChange} 
                     focused={this.state.calendarFocused}
@@ -88,7 +87,7 @@ export default class ExpenseForm extends React.Component {
                 >
                 </textarea>
                 <div>
-                    <button class="button">Save Expense</button>
+                    <button className="button">Save Expense</button>
                 </div>
             </form>
         )
